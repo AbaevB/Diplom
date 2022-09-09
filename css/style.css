@@ -28,7 +28,41 @@ body  {
   font-family: 'dobrozrachniyregular';
 }
 
-.test {
-  font-size: 2rem;
-  color: red;
+.diplom-main  {
+  background-color: antiquewhite;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.main-text  {
+  font-size: 95px;
+  color: brown;
+}
+
+.pattern  {
+  width: 100%;
+  min-height: 200px;
+  background-image: url(../images/pattern.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sign {
+  min-height: 200px;
+  background-image: url(../images/sign.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seal {
+  min-height: 200px;
+  background-image: url(../images/seal.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
