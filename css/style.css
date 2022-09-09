@@ -1,3 +1,10 @@
+@font-face  {
+  font-family: 'dobrozrachniyregular';
+  src:url(../fonts/dobrozrachny.woff2) format('woff2'),
+  url(../fonts/dobrozrachny.woff) format('woff');
+  font-weight: normal;
+    font-style: normal; }
+
 html {
   box-sizing: border-box;
 }
@@ -15,4 +22,13 @@ a {
 
 img {
   max-width: 100%;
+}
+
+body  {
+  font-family: 'dobrozrachniyregular';
+}
+
+.test {
+  font-size: 2rem;
+  color: red;
 }
